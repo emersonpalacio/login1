@@ -27,7 +27,7 @@ namespace login.web.Helpers
             _context = context;
             _userManager = userManager;
             _roleManager = roleManager;
-            this._signInManager = signInManager;
+            _signInManager = signInManager;
         }
 
         public async Task<UserEntity> GetUserByFindByEmailAsync(string email)

@@ -25,7 +25,8 @@ namespace login.web.Data
             var admin = await CheckUserAsync("1010", "Emerson", "Palacio", "emersonpalaciootalvaro@gmail.com", "350 634 2747", "Cll34#56-6", UserType.Admin);
         }
 
-        private async Task<UserEntity> CheckUserAsync(string document, string firstName, string lastName, string email, string phone, string address, UserType userType)
+        private async Task<UserEntity> CheckUserAsync(string document, string firstName, string lastName, string email,
+                                                       string phone, string address, UserType userType)
         {
             var user = await _userHelpers.GetUserByFindByEmailAsync(email);
             if (user == null)
