@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "login.commom", "login.commom\login.commom.csproj", "{E9026E5D-C138-47E7-B36F-2551AE0497A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "login.web", "login.web\login.web.csproj", "{361907C2-D7B0-44D3-B39D-6CAEFD795BF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9026E5D-C138-47E7-B36F-2551AE0497A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9026E5D-C138-47E7-B36F-2551AE0497A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9026E5D-C138-47E7-B36F-2551AE0497A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9026E5D-C138-47E7-B36F-2551AE0497A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{361907C2-D7B0-44D3-B39D-6CAEFD795BF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{361907C2-D7B0-44D3-B39D-6CAEFD795BF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{361907C2-D7B0-44D3-B39D-6CAEFD795BF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{361907C2-D7B0-44D3-B39D-6CAEFD795BF9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE924D3B-76FA-4063-BEA4-050CE4E21592}
+	EndGlobalSection
+EndGlobal
